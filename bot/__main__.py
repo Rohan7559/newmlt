@@ -66,9 +66,9 @@ def stats(update, context):
 def start(update, context):
     if CustomFilters.authorized(update):
         start_string = f'''
-This bot is designed by @rahulkhatri137 to mirror your links to Google Drive and upload files to Telegram!
+This bot is designed by rahul to mirror your links to Google Drive and upload files to Telegram!
 Type /{BotCommands.HelpCommand} to get a list of available commands.
-Powered by @Bots137
+Powered by vin
 '''
         sendMessage(start_string, context.bot, update)
     else:
